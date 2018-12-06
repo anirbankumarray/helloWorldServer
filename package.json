@@ -1,0 +1,16 @@
+{
+  "name": "helloworldserver",
+  "version": "1.0.0",
+  "description": "sample server module for alexa web service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "@nirban",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app-server": "^3.0.2",
+    "express": "^4.16.4"
+  }
+}
